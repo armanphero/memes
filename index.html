@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="meme.css">
+</head>
+
+<body>
+
+    <section class="title">
+        <h1 class="text-center text-primary my-4">Welcome to memes world</h1>
+        <div class="d-flex justify-content-center my-4 d-none text-info" id="spinner">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+    </section>
+
+    <section class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5" id="meme-container">
+        </div>
+    </section>
+
+    <!-- script -->
+    <script src="meme.js"></script>
+
+</body>
+
+</html>
